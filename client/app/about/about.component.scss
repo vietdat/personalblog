@@ -205,3 +205,27 @@ h1, h2, h3, h4, h5, h6 {
 .h5, h5 {
     font-size: 14px;
 }   
+
+.content-lg {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-wrapper-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    z-index: 3;
+}
+
+.bg-color-sky-light {
+    background: #fafafa!important;
+}
+
+.row-space-2>[class*=col-] {
+    padding-left: 2px;
+    padding-right: 2px;
+}
